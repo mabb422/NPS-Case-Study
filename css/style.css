@@ -29,7 +29,7 @@ body{
 
 
 /*****
-  **Header
+  **Header/Subheader
   *****/
 
 .component__code-header {
@@ -38,4 +38,45 @@ body{
 }
 .component__code-header li {
     list-style: none;
+}
+
+/*****
+  **Button
+  *****/
+.component__code-subheader{
+    color: #ffffff;
+    background-color: rgba(14, 14, 14, 0.75);
+    padding: 15px;
+    width: 500px;
+}
+.component__code-subheaderl{
+    width: 100%
+}
+.component__code-subheader h4 {
+    text-transform: uppercase;
+    padding: 0;
+    font-weight: 300;
+}
+.component__code-subheader p {
+    font-size: 50px;
+    padding: 0;
+    font-weight: lighter;
+}
+.component__code-subheader a {
+    color: #ffffff;
+}
+button {
+    color: #ffffff;
+    background-color: #647630;
+    border: 1px solid #cbcbcb;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+}
+.dropdown{
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 100%;
+    padding: 10px 100px;
 }
