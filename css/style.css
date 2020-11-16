@@ -65,6 +65,9 @@ body{
 .component__code-subheader a {
     color: #ffffff;
 }
+.component__code-subheaderl p {
+    font-size: 10px;
+}
 button {
     color: #ffffff;
     background-color: #647630;
