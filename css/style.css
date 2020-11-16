@@ -35,14 +35,21 @@ body{
 .component__code-header {
     color: white;
     background-color: black;
+    display: flex;
+    justify-content: space-between;
+}
+.header-left {
+    display: flex;
 }
 .component__code-header li {
     list-style: none;
+    padding: 10px;
+    text-transform: uppercase;
+    color: #cbcbcb;
 }
-
-/*****
-  **Button
-  *****/
+.component__code-header ul {
+    display: flex;
+}
 .component__code-subheader{
     color: #ffffff;
     background-color: rgba(14, 14, 14, 0.75);
@@ -68,6 +75,12 @@ body{
 .component__code-subheaderl p {
     font-size: 10px;
 }
+
+
+/*****
+  **Button
+  *****/
+
 button {
     color: #ffffff;
     background-color: #647630;
@@ -82,4 +95,29 @@ button {
     border-radius: 5px;
     max-width: 100%;
     padding: 10px 100px;
+}
+.button-black {
+    background-color: #333
+}
+
+
+/*****
+  **Articles
+  *****/
+
+.component__articles{
+    display: flex;
+    justify-content: space-around;
+}
+.component__code-article{
+    max-width: 350px;
+
+}
+.component__code-article img{
+    max-width: 350px;
+
+}
+.component__code-article a{
+    color: #333;
+    text-decoration: none;
 }
