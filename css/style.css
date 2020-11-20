@@ -122,3 +122,6 @@ button {
     color: #333;
     text-decoration: none;
 }
+.component__code-articlead {
+    background-image: url("images/foundationbackground.png")
+}
