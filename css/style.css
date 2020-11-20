@@ -123,5 +123,45 @@ button {
     text-decoration: none;
 }
 .component__code-articlead {
-    background-image: url("images/foundationbackground.png")
+    background-image: url("images/foundationbackground.png");
+}
+
+
+
+/*****
+  **Additional Links
+  *****/
+
+.verbiage h2,
+.verbiage p{
+    background-color: rgba(27, 27, 27, 0.6);
+    margin: 3px;
+    padding: 8px 15px;
+    border: 1px solid rgb(37, 37, 37);
+    color: white
+}
+.verbiage h2{
+    font-size: 11px;
+    text-transform: uppercase;
+}
+.verbiage p{
+    font-size: medium;
+    font-weight: bold;
+}
+.links{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.container {
+    position: relative;
+    display: flex;
+}
+.verbiage {
+  position: absolute;
+  top: 63%;
+  padding-left: 25px;
+  max-width: 250px;
+}
+.link-image{
+    max-width: 250px;
 }
