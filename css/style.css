@@ -165,3 +165,35 @@ button {
 .link-image{
     max-width: 250px;
 }
+
+
+/*****
+  **Additional Links
+  *****/
+
+.footer{
+    color: white;
+    background-color:black;
+}
+.footer-body{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-nav ul{
+    display: flex;
+}
+.footer-nav li{
+    list-style-type: none;
+    text-transform: uppercase;
+    padding-right: 20px;
+}
+.footer-nav a{
+    text-decoration: none;
+    color: white;
+}
+.footer-nav__item-primary{
+    border: none;
+}
+.footer-nav__item{
+    border-left: 1pv solid white
+}
