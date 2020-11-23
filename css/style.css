@@ -52,6 +52,7 @@ img{
 .component__code-alert{
     color: white;
     background-color: #701004;
+    padding: 15px;
   }
 .component__code-alert a{
       color: #ff9b98
