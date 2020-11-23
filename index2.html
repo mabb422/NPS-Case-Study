@@ -10,51 +10,88 @@
         <script src="https://kit.fontawesome.com/4611fd7710.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <h1>Web components go Here</h1>
-
-        <h2> Typography Defaults</h2>
+      <h1>Web Design Case Study</h1>
       <article class="component">
-        <h3>Body</h3>
-        <img src="images/image20.png" width=170 alt="title">
-        <img src="images/image21.png" width=300 alt="paragraph">
-            <div class="component__code component__code-typography">
-                <h4>National Park News</h4>
-                <p>Find the latest news and events, search for images and videos, and discover facts and figures about the national parks.</p>
-            </div>
-      </article>  
+        <h2 class="section-header"> Typography Defaults</h2>
+          <div class="component-container">
+            <h3>Images:</h3>
+            <img src="images/image20.png" width=170 alt="title">
+            <img src="images/image21.png" width=300 alt="paragraph">
+                <div class="component__code component__code-typography">
+                    <h3 class="code-section">Code:</h3>
+                    <h4>National Park News <i class="fas fa-angle-right"></i></h4>
+                    <p>Find the latest news and events, search for images and videos, and discover facts and figures about the national parks.</p>
+                </div>
+          </div>
+      </article>
         
       <article class="component">
-        <img src="images/image1.png">
-        <div class="component__code component__code-alert">
-            <img src="images/image4.png" class="alert__icon">
-            <h4 class="alert__title">COVID-19 Response</h4>
-            <p class="alert__information">Following guidance from the White House, Centers for Disease Control and Prevention, and state and local public health authorities, we are increasing access and services in a phased approach across all units of the National Park System. Before visiting a park, please check the <a href="#!">park website</a> to determine its operating status. Updates about the overall NPS response to COVID-19, including safety information, are posted on <a href="#!">www.nps.gov/coronavirus.</a></p>
-        </div>
+        <h2 class="section-header">Alert</h2>
+          <div class="component-container">
+            <h3>Images:</h3>
+                <p>Alert Section</p>
+                <img src="images/image1.png">
+                <p>Alert Icon</p>
+                <img src="images/image4.png">
+                <p>Alert Link</p>
+                <img src="images/image3.png">
+            <h3 class="code-section">Code:</h3>
+                <div class="component__code component__code-alert">
+                    <img src="images/image4.png" class="alert__icon">
+                    <h4 class="alert__title">COVID-19 Response</h4>
+                    <p class="alert__information">Following guidance from the White House, Centers for Disease Control and Prevention, and state and local public health authorities, we are increasing access and services in a phased approach across all units of the National Park System. Before visiting a park, please check the <a href="#!">park website</a> to determine its operating status. Updates about the overall NPS response to COVID-19, including safety information, are posted on <a href="#!">www.nps.gov/coronavirus.</a></p>
+                </div>
+          </div>
       </article>
 
       <article class="component">
-        <img src="images/image6.png">
-        <div class="component__code component__code-header">
-            <div class="header-left">
+        <h2 class="section-header">Header Navigation</h2>
+          <div class="component-container">
+            <h3>Images:</h3>
+                <p>Navigation Bar</p>
+                <img src="images/image6.png">
+                <p>NPS Emblem</p>
                 <img src="images/image10.png" class="nps-icon">
-                <h4>National Park Service</h4>
-            </div>   
-                <ul>
-                    <li><i class="fas fa-search"></i>Search</li>
-                    <li><i class="fas fa-bars"></i>Menu</li>
-            </ul>
-        </div>
+                <p>Oragization Title</p>
+                <img src="images/image7.png">
+                <p>Navigation Item</p>
+                <img src="images/image9.png">
+            <h3 class="code-section">Code:</h3>
+                <div class="component__code component__code-header">
+                    <div class="header-left">
+                        <img src="images/image10.png" class="nps-icon">
+                        <h4>National Park Service</h4>
+                    </div>   
+                        <ul>
+                            <li><i class="fas fa-search"></i> Search</li>
+                            <li><i class="fas fa-bars"></i> Menu</li>
+                        </ul>
+                    </div>
+                </div>
       </article>
 
       <article class="component">
-        <img src="images/image5.png" width=1000>
-        <div class="component__code component__code-subheader component__code-subheaderu">
-            <h4>Sharing History & Culture</h4>
-            <p>Native American Heritage Month</p>
-            <button>Explore stories</button>
+        <h2 class="section-header">Header Section</h2>
+          <div class="component-container">
+            <h3>Images:</h3>
+                <p>Full Header Section</p>
+                <img src="images/image5.png">
+                <P>Top Story</P>
+                <img src="images/image11.png" class="nps-icon">
+                <p>State Navigation</p>
+                <img src="images/image13.png">
+                <p>Button</p>
+                <img src="images/image12.png">
+                <p>Navigation Link</p>
+                <img src="images/image14.png">
+            <h3 class="code-section">Code:</h3>
+                <div class="component__code component__code-subheader component__code-subheaderu">
+                    <h4>Sharing History & Culture</h4>
+                    <p>Native American Heritage Month</p>
+                    <button>Explore stories</button>
+                </div>
+            <div class="component__code component__code-subheader component__code-subheaderl">
 
-        </div>
-        <div class="component__code component__code-subheader component__code-subheaderl">
             <h4><a href="#!">Find a Park</a></h4>
             <select class="dropdown" value="By State...">
                 <option value="Alabama">Alabama</option>
@@ -64,21 +101,25 @@
 
             </select>
             <p><a href="#!">See All Parks & Search By Map</a></p>
+            </div>
         </div>
       </article>
 
       <article class="component">
-        <img src="images/image17.png" width=500>
-        <img src="images/image18.png" width=500>
-        <div class="component__articles">
-            <div class="component__code component__code-article">
-                <a href="#!">
-                    <img src="images/article1.PNG">
-                    <h4>2019 Novel Coronavirus (COVID-19) <i class="fas fa-angle-right"></i></h4>
-                    <p>Learn about the National Park Service response to the coronavirus outbreak.</p>
-                </a>        
-            </div>
-            <div class="component__code component__code-article">
+        <h2 class="section-header">Articles</h2>
+        <div class="component-container">
+            <img src="images/image17.png" width=500>
+            <img src="images/image18.png" width=500>
+            <div class="component__articles">
+                <div class="component__code component__code-article">
+                    <a href="#!">
+                        <img src="images/article1.PNG">
+                        <h4>2019 Novel Coronavirus (COVID-19) <i class="fas fa-angle-right"></i></h4>
+                        <p>Learn about the National Park Service response to the coronavirus outbreak.</p>
+                    </a>        
+                </div>
+        
+                <div class="component__code component__code-article">
                 <a href="#!">
                     <img src="images/article2.PNG">
                     <h4>Special Invitation for Fifth Graders <i class="fas fa-angle-right"></i></h4>
@@ -137,15 +178,18 @@
                 <button class="button button-black">Subscibe</button>
             </div>
         </div>
+      </article>
 
 
       <article class="component">
+        <h2 class="section-header">Date and Ad</h2>
           <img src="images/image27.png">
           <p class="update-date">Last updated: November 17, 2020</p>
       </article>
 
 
       <article class="component">
+        <h2 class="section-header">Educational Links</h2>
         <img src=images/educate.png alt="education links image" width=1000>
         <div class="links">
             <div class="container">
@@ -183,6 +227,7 @@
       </article>
 
       <article class="component">
+        <h2 class="section-header">Footer Section</h2>
         <img src="images/image31.png">
         <div class= "footer">
             <h4 class="footer-head">Experience Your America&#153</h4>

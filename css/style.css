@@ -1,44 +1,47 @@
 
 
-html {
+html{
     box-sizing: border-box;
   }
 *, 
 *:before, 
-*:after {
+*:after{
     box-sizing: inherit;
   }
 body{
     font-family: Arial, Helvetica, sans-serif;
   }
-.component {
+.component{
     border: 1px solid black;
     margin: 20px;
     padding: 0;
 }
-.component__code {
-    border-top: 1px solid black;
+.component__code{
     margin-top: 10px;
 }
-.component-container {
+.component-container{
     padding: 10px;
+}
+.code-section{
+    border-top: 1px solid black;
+    padding-top: 10px;
 }
 h1,
 h2,
-h3 {
+h3{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-h1 {
+h1{
     text-align: center;
     color: #647630;
 }
-h2 {
+h2{
     color: white;
     background-color: #647630;
     padding: 10px;
     margin: 0;
 }
-img {
+img{
     max-width: 90%;
 }
 
@@ -46,11 +49,11 @@ img {
   **Alert
   *****/
 
-.component__code-alert {
+.component__code-alert{
     color: white;
     background-color: #701004;
   }
-.component__code-alert a {
+.component__code-alert a{
       color: #ff9b98
   }
 
@@ -60,22 +63,22 @@ img {
   **Header/Subheader
   *****/
 
-.component__code-header {
+.component__code-header{
     color: white;
     background-color: black;
     display: flex;
     justify-content: space-between;
 }
-.header-left {
+.header-left{
     display: flex;
 }
-.component__code-header li {
+.component__code-header li{
     list-style: none;
     padding: 10px;
     text-transform: uppercase;
     color: #cbcbcb;
 }
-.component__code-header ul {
+.component__code-header ul{
     display: flex;
 }
 .component__code-subheader{
@@ -87,20 +90,20 @@ img {
 .component__code-subheaderl{
     width: 100%
 }
-.component__code-subheader h4 {
+.component__code-subheader h4{
     text-transform: uppercase;
     padding: 0;
     font-weight: 300;
 }
-.component__code-subheader p {
+.component__code-subheader p{
     font-size: 50px;
     padding: 0;
     font-weight: lighter;
 }
-.component__code-subheader a {
+.component__code-subheader a{
     color: #ffffff;
 }
-.component__code-subheaderl p {
+.component__code-subheaderl p{
     font-size: 10px;
 }
 
@@ -109,7 +112,7 @@ img {
   **Button
   *****/
 
-button {
+button{
     color: #ffffff;
     background-color: #647630;
     border: 1px solid #cbcbcb;
@@ -124,7 +127,7 @@ button {
     max-width: 100%;
     padding: 10px 100px;
 }
-.button-black {
+.button-black{
     background-color: #333;
     text-transform: capitalize;
 }
@@ -138,10 +141,6 @@ button {
     display: flex;
     justify-content: space-around;
 }
-.component__code-article{
-    max-width: 350px;
-
-}
 .component__code-article img{
     max-width: 350px;
 
@@ -150,10 +149,12 @@ button {
     color: #333;
     text-decoration: none;
 }
-.component__code-articlead {
+.component__code-articlead{
     background-image: url("images/foundationbackground.png");
 }
-
+.update-date{
+    text-align: right;
+}
 
 
 /*****
@@ -225,4 +226,3 @@ button {
 .footer-nav__item{
     border-left: 1pv solid white
 }
-.footer-branding{}
