@@ -144,17 +144,20 @@ button{
 }
 .component__code-article img{
     max-width: 350px;
-
 }
 .component__code-article a{
     color: #333;
     text-decoration: none;
+    padding: 20px;
 }
 .component__code-articlead{
     background-image: url("images/foundationbackground.png");
 }
 .update-date{
     text-align: right;
+}
+.component__code-article__verbiage{
+    padding: 20px;
 }
 
 
@@ -169,10 +172,6 @@ button{
     padding: 8px 15px;
     border: 1px solid rgb(37, 37, 37);
     color: white
-}
-.verbiage h2{
-    font-size: 11px;
-    text-transform: uppercase;
 }
 .verbiage p{
     font-size: medium;
@@ -192,9 +191,7 @@ button{
   padding-left: 25px;
   max-width: 250px;
 }
-.link-image{
-    max-width: 250px;
-}
+
 
 
 /*****
