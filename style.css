@@ -116,7 +116,7 @@ img{
 button{
     color: #ffffff;
     background-color: #647630;
-    border: 1px solid #cbcbcb;
+    border: 1px solid white;
     text-transform: uppercase;
     font-weight: bold;
     padding: 10px;
@@ -152,15 +152,49 @@ button{
 }
 .component__code-articlead{
     background-image: url("images/foundationbackground.png");
+    color: white;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .update-date{
     text-align: right;
+    padding: 25px 0;
+}
+.component__code-article{
+    width: 30%;
 }
 .component__code-article__verbiage{
     padding: 20px;
 }
-.component__code-articlead{
-    color: white;
+.component__code-articlead img{
+    max-width: 300px;
+}
+.articles {
+    padding-bottom: 50px;
+}
+.component-links{
+    background-image: url("images/linksbackground.png");
+    padding: 50px 0;
+    width: 95%;
+    margin: 10px;
+}
+.component-links p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: lighter;
+}
+.component__buttons-more{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0 200px;
+}
+.button-more{
+    padding: 20px 40px;
+}
+.component-discover{
+    padding: 50px;
 }
 
 
