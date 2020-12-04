@@ -36,10 +36,10 @@ img{
 
 .component__code-alert{
     display: flex;
-  }
-  .component-container-alert a{
+}
+.component-container-alert a{
       color: #ff9b98
-  }
+}
 .component-container-alert{
     background-color: #701004;
     padding: 15px;
@@ -63,12 +63,16 @@ img{
 .header-left{
     display: flex;
 }
+.header{
+    background-image: url("images/background.png");
+    width: 100%;
+    padding-bottom: 100px;
+}
 .component__code-header li{
     list-style: none;
     padding: 10px;
     text-transform: uppercase;
     color: #cbcbcb;
-    background-image: url("images/background.png");
 }
 .component__code-header ul{
     display: flex;
@@ -91,6 +95,9 @@ img{
     font-size: 50px;
     padding: 0;
     font-weight: lighter;
+}
+.component__code-subheaderl{
+   text-align: center; 
 }
 .component__code-subheader a{
     color: #ffffff;
@@ -151,6 +158,9 @@ button{
 }
 .component__code-article__verbiage{
     padding: 20px;
+}
+.component__code-articlead{
+    color: white;
 }
 
 
