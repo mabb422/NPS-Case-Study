@@ -139,11 +139,13 @@ button{
   *****/
 
 .component__articles{
-    display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: repeat(3);
+    overflow: auto;
 }
-.component__code-article img{
-    max-width: 350px;
+.component__code-article{
+    display: flex;
 }
 .component__code-article a{
     color: #333;
@@ -153,7 +155,7 @@ button{
 .component__code-articlead{
     background-image: url("images/foundationbackground.png");
     color: white;
-    max-width: 400px;
+    max-height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -161,9 +163,6 @@ button{
 .update-date{
     text-align: right;
     padding: 25px 0;
-}
-.component__code-article{
-    width: 30%;
 }
 .component__code-article__verbiage{
     padding: 20px;
