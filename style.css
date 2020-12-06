@@ -94,7 +94,7 @@ h1{
 .component__code-subheaderu{
     float: right;
     margin: 50px;
-    padding: 0 0 40px 40px;
+    padding: 0 0 30px 40px;
     max-width: 500px;
 }
 .component__code-subheaderu p{
@@ -169,10 +169,8 @@ button{
   *****/
 
 .component__articles{
-    display: grid;
-    grid-template-columns: repeat(3, 30%);
-    grid-template-rows: repeat(3);
-    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
     resize: horizontal;
 }
 .article-image{
@@ -182,6 +180,8 @@ button{
     display: flex;
     padding: 1rem;
     color: #333;
+    max-width: 30%;
+    min-width: 300px;
 }
 .component__code-article__verbiage h2{
     font-size: medium;
@@ -256,36 +256,44 @@ button{
   **Additional Links
   *****/
 
-  .educational-link__verbiage h2,
-  .educational-link__verbiage p{
+.educational-link__verbiage h2,
+.educational-link__verbiage p{
     background-color: rgba(14, 14, 14, 0.50);
-      margin: 3px;
-      padding: 8px 15px;
-      border: 1px solid rgb(37, 37, 37);
-      color: white
-  }
-  .educational-link__verbiage p{
-      font-size: medium;
-      font-weight: bold;
-  }
-  .educational-links{
-      display: flex;
-      flex-wrap: nowrap;
-  }
-  .educational-link__image{
-      margin: 0;
-      padding: 0;
-  }
-  .container {
-      position: relative;
-      display: flex;
-  }
-  .educational-link__verbiage {
-    position: absolute;
-    top: 63%;
-    padding-left: 25px;
-    max-width: 250px;
-  }
+    margin: 3px;
+    padding: 8px 15px;
+    border: 1px solid rgb(37, 37, 37);
+    color: white;
+    font-size: small;
+}
+.educational-link__verbiage h2{
+    text-transform: uppercase;
+}
+.educational-link__verbiage p{
+    font-size: medium;
+    font-weight: bold;
+}
+.educational-links a{
+    max-height: 385px;
+}
+.educational-links{
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    background-color: black;
+}
+.educational-link__image{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    position: relative;
+    display: flex;
+}
+.educational-link__verbiage {
+  position: absolute;
+  top: 63%;
+  padding-left: 25px;
+  max-width: 250px;
+}
   
 
 
@@ -293,12 +301,16 @@ button{
   **Footer
   *****/
 
+
 .footer{
     color: white;
-    background-color:black;
-    padding: 10px;
+    padding: 10px 10px 50px 10px;
     font-size: smaller;
     font-weight: bold;
+    background-color: black;
+}
+.footer h2{
+    font-size: small;
 }
 .footer-body{
     display: flex;
@@ -347,7 +359,7 @@ button{
 }
 .footer-branding{
     display: flex;
-    width: 30%;
+    width: 25%;
     margin-top: 15px;
 }
 .footer-branding__verbiage{
