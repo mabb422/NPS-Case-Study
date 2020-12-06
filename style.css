@@ -116,7 +116,7 @@ h1{
 }
 .component__code-subheaderl h2{
     margin: 0;
-    font-size: 15ps;
+    font-size: 15px;
 }
 .component__code-subheader a{
     color: #ffffff;
@@ -170,7 +170,7 @@ button{
 
 .component__articles{
     display: grid;
-    grid-template-columns: repeat(3, 25%);
+    grid-template-columns: repeat(3, 30%);
     grid-template-rows: repeat(3);
     overflow: auto;
     resize: horizontal;
@@ -182,6 +182,12 @@ button{
     display: flex;
     padding: 1rem;
     color: #333;
+}
+.component__code-article__verbiage h2{
+    font-size: medium;
+}
+.component__code-article__verbiage p{
+    font-size: small;
 }
 .component__code-article a{
     color: #333;
@@ -240,6 +246,7 @@ button{
 .component-discover{
     padding-bottom: 117px;
     margin: 0;
+    font-weight: lighter;
 }
 .adimage1{
     max-width: 100%;
@@ -249,23 +256,23 @@ button{
   **Additional Links
   *****/
 
-  .verbiage h2,
-  .verbiage p{
-      background-color: rgba(27, 27, 27, 0.6);
+  .educational-link__verbiage h2,
+  .educational-link__verbiage p{
+    background-color: rgba(14, 14, 14, 0.50);
       margin: 3px;
       padding: 8px 15px;
       border: 1px solid rgb(37, 37, 37);
       color: white
   }
-  .verbiage p{
+  .educational-link__verbiage p{
       font-size: medium;
       font-weight: bold;
   }
-  .links{
+  .educational-links{
       display: flex;
       flex-wrap: nowrap;
   }
-  .link-image{
+  .educational-link__image{
       margin: 0;
       padding: 0;
   }
@@ -273,7 +280,7 @@ button{
       position: relative;
       display: flex;
   }
-  .verbiage {
+  .educational-link__verbiage {
     position: absolute;
     top: 63%;
     padding-left: 25px;
