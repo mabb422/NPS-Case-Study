@@ -26,10 +26,6 @@ h2{
     padding: 10px;
     margin: 0;
 }
-img{
-    max-width: 90%;
-}
-
   /*****
   **Alert
   *****/
@@ -163,10 +159,13 @@ button{
 
 .component__articles{
     display: grid;
-    grid-template-columns: repeat(3, 30%);
+    grid-template-columns: repeat(3, 25%);
     grid-template-rows: repeat(3);
     overflow: auto;
     resize: horizontal;
+}
+.article-image{
+    max-width: 100%;
 }
 .component__code-article{
     display: flex;
@@ -176,6 +175,8 @@ button{
 .component__code-article a{
     color: #333;
     text-decoration: none;
+    margin: 0;
+    padding: 0;
 }
 .component__code-article{
     object-fit: cover;
@@ -229,7 +230,9 @@ button{
     padding-bottom: 117px;
     margin: 0;
 }
-
+.adimage1{
+    max-width: 100%;
+}
 
 /*****
   **Additional Links
@@ -250,6 +253,10 @@ button{
   .links{
       display: flex;
       flex-wrap: nowrap;
+  }
+  .link-image{
+      margin: 0;
+      padding: 0;
   }
   .container {
       position: relative;
