@@ -178,7 +178,7 @@ button{
 }
 .component__code-article{
     display: flex;
-    padding: 1rem;
+    padding: 1rem .5rem;
     color: #333;
     max-width: 30%;
     min-width: 300px;
@@ -206,7 +206,9 @@ button{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    height: 400px;
     padding: 25px;
+    margin-top: 17px;
 }
 .component__code-articlead p{
  color: white;
